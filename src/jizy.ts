@@ -19,13 +19,13 @@ class Jizy<I extends string> implements Store<I>, Lazy {
 
   async add(
     importName: I,
-    getComponent: () => Promise<JizyComponentClass>
+    getComponent: () => Promise<JizyComponentClass>,
   ): Promise<void> {
     // tslint:disable-next-line variable-name
     const JizyComponent = jizyComponentFactory<I>({
       jizy: this,
       importName,
-      getComponent
+      getComponent,
     });
 
     if (this.components !== undefined) {
@@ -35,7 +35,7 @@ class Jizy<I extends string> implements Store<I>, Lazy {
     }
 
     this.components = {
-      [importName]: JizyComponent
+      [importName]: JizyComponent,
     } as {[P in I]: any};
   }
 }
