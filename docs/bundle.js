@@ -493,7 +493,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var reac
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/nju33/nju33/react-jizy/demo/demo.tsx */"./demo.tsx");
+module.exports = __webpack_require__(/*! /Users/nju33/github/react-jizy/demo/demo.tsx */"./demo.tsx");
 
 
 /***/ })
