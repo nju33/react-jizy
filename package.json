@@ -1,7 +1,7 @@
 {
   "name": "react-jizy",
   "description": "React component wrapper for lazy import",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "types": "dist/jizy.d.ts",
   "main": "dist/jizy.js",
   "umd:main": "dist/jizy.umd.js",
