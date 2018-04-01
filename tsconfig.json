@@ -1,5 +1,5 @@
 {
-  "exclude": ["node_modules", "demo"],
+  "exclude": ["node_modules", "demo", "src/*.test.tsx"],
   "compilerOptions": {
     "target": "es5",
     "jsx": "react",
