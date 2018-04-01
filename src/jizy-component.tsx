@@ -37,7 +37,7 @@ export function jizyComponentFactory<I extends string>(
         );
       }
 
-      return <this.state.Component />;
+      return <this.state.Component {...this.props} />;
     }
 
     async componentDidMount() {
